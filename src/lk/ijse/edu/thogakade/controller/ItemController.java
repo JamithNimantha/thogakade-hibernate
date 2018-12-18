@@ -2,15 +2,11 @@ package lk.ijse.edu.thogakade.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-
-public class ItemController implements Initializable {
+public class ItemController {
 
     @FXML
     private TextField txtID;
@@ -66,8 +62,4 @@ public class ItemController implements Initializable {
 
     }
 
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-
-    }
 }
